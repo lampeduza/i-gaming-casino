@@ -1,0 +1,16 @@
+.link-list {
+	@include reset-list;
+	display: flex;
+}
+
+.link-list__item {
+	margin: 0 12px 0 0;
+
+	&:last-child {
+		margin: 0;
+	}
+}
+
+.link-list__link {
+	display: flex;
+}

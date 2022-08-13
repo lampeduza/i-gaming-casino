@@ -1,0 +1,29 @@
+.news {
+	.mention__top {
+		margin: 0 0 17px 0;
+	}
+
+	.hot-news__sort-list {
+		margin: 0 0 24px 0;
+	}
+
+	.hot-news__list {
+		margin: 0 0 13px 0;
+	}
+
+	.hot-news__item {
+		margin: 0 32px 24px 0;
+
+		&:nth-child(4n) {
+			margin: 0 0 24px 0;
+	}
+}
+
+	.hot-news__picture {
+		margin: 0 0 25px 0;
+	}
+
+	.hot-news__image {
+		margin: 0;
+	}
+}

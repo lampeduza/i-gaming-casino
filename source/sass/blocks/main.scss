@@ -1,0 +1,218 @@
+.main {
+	position: relative;
+
+	&--reviews {
+		.download__title {
+			padding: 0;
+		}
+
+		.breadcrumbs {
+			margin: 0 0 37px 0;
+		}
+
+		.mention__top {
+			margin: 0 0 17px 0;
+		}
+
+		.pagination__select-option {
+
+			&[rel="12"] {
+				display: none;
+			}
+		}
+	}
+
+	&--news-article {
+		.breadcrumbs {
+			margin: 0 0 44px 0;
+		}
+	}
+
+	&--news {
+		.breadcrumbs {
+			margin: 0 0 37px 0;
+		}
+
+		.pagination__select-option {
+
+			&[rel="12"] {
+				display: none;
+			}
+		}
+
+
+	}
+
+	&--card {
+
+		.breadcrumbs {
+			margin: 0 0 44px 0;
+		}
+
+		.bookmaker-review__item {
+			padding: 0;
+			display: block;
+		}
+
+		.bookmaker-review__item-link {
+			color: inherit;
+			display: flex;
+			justify-content: space-between;
+			padding: 16px;
+		}
+	}
+
+	&--news,
+	&--news-article {
+		.partners__group {
+			&:nth-of-type(1) {
+				margin: 0 auto 32px auto;
+				transform: translateX(-468px);
+			}
+
+			&:nth-of-type(2) {
+				transform: translateX(-312px);
+			}	
+		}
+	}
+
+	&--user-account {
+		.main__wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin: 0 auto 40px auto;
+		}
+
+		.card__advantages-rating {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			color: $primary-color;
+			background-color: transparent;
+			font-weight: $bold;
+			font-size: 16px;
+			line-height: 24px;
+			position: relative;
+			padding: 0;
+			min-height: auto;
+		}
+
+		.card__advantages-rating-icon {
+			margin: 0 8px 0 0;
+		}
+
+		.card__advantages-mark {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 0 8px 0;
+			font-size: 28px;
+			line-height: 32px;
+			font-weight: $bold;
+			color: #fed200;
+		}
+
+		.card__advantages-text {
+			font-size: 14px;
+			line-height: 20px;
+			margin: 0;
+		}
+
+		.card__bonus-copy {
+			min-width: 142px;
+		}
+
+		.promocodes__list-item {
+			margin: 0 0 18px 0;
+		}
+
+		.promocodes__list-main {
+			&::after {
+				right: -20px;
+			}
+		}
+
+		.promocodes__list-description {
+			width: 310px;
+		}
+	}
+}
+
+.main__index-columns {
+	display: flex;
+	align-items: flex-start;
+
+	&:nth-of-type(1),
+	&:nth-of-type(2) {
+		justify-content: space-between;
+		margin: 0 auto 32px auto;
+	}
+
+	&:nth-of-type(3) {
+		align-items: flex-start;
+		justify-content: space-between;
+		align-items: stretch;
+
+		width: 100%;
+
+		margin: 64px auto 64px auto;
+	}
+
+	&:nth-of-type(4) {
+		justify-content: space-between;
+		align-items: stretch;
+		margin: 0 auto 64px auto;
+	}
+}
+
+.main__filters {
+	z-index: 10;
+	min-width: 1512px;
+	background-color: #f6f5f4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: auto;
+	padding-top: 4px;
+
+	.main__breadcrumbs {
+		margin: 0 0 28px 0;
+	}
+
+	// display: flex;
+
+	
+	display: none;
+
+	&--show {
+		display: flex;
+	}
+}
+
+.main__left-side {
+	width: 1000px;
+}
+
+.main__edit-profile {
+	display: flex;
+	align-items: center;
+	min-width: 215px;
+	
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: $bold;
+	color: $secondary-color;
+	margin: -2px 0 0 0;
+}
+
+.main__edit-profile-icon {
+	margin: -2px 12px 0 0;
+}
+
+.main__broadcasts-title {
+	font-size: 20px;
+	line-height: 28px;
+	margin: 0 0 24px 0;
+}

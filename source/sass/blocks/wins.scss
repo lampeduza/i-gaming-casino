@@ -1,0 +1,147 @@
+.wins {
+	background-color: $white-color;
+	width: 484px;
+	min-height: 480px;
+	margin-left: auto;
+
+	padding: 48px;
+
+	border-radius: $radius-sixteen;
+
+	&--top {
+		.wins__amount {
+			margin: 0 0 0 10px;
+		}
+	}
+
+	&--largest {
+		width: calc(50% - 16px);
+		min-height: auto;
+		padding: 31px 32px 32px 32px;
+		margin: 0;
+
+		.wins__top {
+			display: flex;
+			justify-content: space-between;
+			align-items: top;
+
+			margin: 0 0 5px 0;
+		}
+
+		.wins__main-title {
+			font-size: 20px;
+			line-height: 28px;
+			color: $primary-color;
+
+			max-width: 460px;
+		}
+
+		.wins__show {
+			max-width: 120px;
+		}
+
+		.wins__item {
+			margin: 0 0 24px 0;
+		}
+
+		.wins__link {
+			width: 100%;
+		}
+
+		.wins__picture {
+			box-shadow: none;
+		}
+
+		.wins__content {
+			margin: 0;
+			max-width: 330px;
+		}
+
+		.wins__title {
+			font-size: 20px;
+			line-height: 28px;
+		}
+
+		.wins__amount {
+			margin-left: auto;
+			max-width: 125px;
+			font-size: 20px;
+			line-height: 28px;
+		}
+	}
+}
+
+.wins__main-title {
+	font-size: 28px;
+	line-height: 32px;
+	color: $black-color;
+
+	margin: 0 0 20px 0;
+}
+
+.wins__list {
+	@include reset-list;
+
+	margin: 0 0 60px 0;
+
+	&:last-child {
+		margin: 0;
+	}
+}
+
+.wins__item {
+	margin: 0 0 20px 0;
+
+	display: flex;
+	align-items: center;
+
+	&:last-child {
+		margin: 0;
+	}
+}
+
+.wins__link {
+	display: flex;
+	align-items: center;
+	color: inherit;
+}
+
+.wins__picture {
+	flex-shrink: 0;
+	margin: 0 16px 0 0;
+
+	&--gems {
+		box-shadow: 0px 20px 40px -8px rgba(193, 10, 19, 0.5);
+	}
+
+	&--arcane {
+		box-shadow: 0px 20px 40px -8px rgba(87, 76, 223, 0.5);
+	}
+}
+
+.wins__title {
+	margin: 0 0 4px 0;
+	font-size: 16px;
+}
+
+.wins__user-name {
+	margin: 0;
+}
+
+.wins__content {
+	min-width: 160px;
+	max-width: 170px;
+}
+
+.wins__command-name {
+	margin: 0;
+}
+
+.wins__amount {
+	font-weight: $bold;
+	color: $price-color;
+
+	min-width: 59px;
+	max-width: 90px;
+	margin: 0 0 0 auto;
+}

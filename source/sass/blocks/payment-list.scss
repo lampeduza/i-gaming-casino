@@ -1,0 +1,16 @@
+.payment-list {
+	@include reset-list;
+	display: flex;
+	align-items: center;
+}
+
+.payment-list__item {
+	display: flex;
+	align-items: center;
+
+	margin: 0 24px 8px 0;
+
+	&:nth-child(3n) {
+		margin: 0 0 8px 0;
+	}
+}
